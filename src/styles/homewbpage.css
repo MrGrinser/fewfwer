@@ -1,0 +1,24 @@
+.homePic {
+    width:100%; 
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto;
+    border-right:black;
+    border-left:black;
+    
+
+}
+
+.box {
+   
+    background-color: #FC6C85;
+    width: 75%; /* Set the width of the box */
+    margin: auto; /* Center the box horizontally */
+}
+.titel {
+    margin:  auto; /* Center the box horizontally */
+   
+    width: 10%;
+    margin:  auto; /* Center the box horizontally */
+    margin-top: 50px;
+}

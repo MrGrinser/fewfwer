@@ -1,0 +1,24 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table-container table {
+    border-collapse: collapse;
+  }
+  
+  .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table-container img {
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+  }
+  .shop-title {
+    display: flex;
+    justify-content: center;
+  }
