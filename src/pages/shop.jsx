@@ -6,12 +6,11 @@ const Shop = () => {
          <img src={ShopPic} alt="homePic" className="homePic" /> 
         
         <Table></Table>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
-        <div>hi</div>
+        <div className="distance">hi</div>
+        <div className="distance">hi</div>
+        <div className="distance">hi</div>
+        <div className="distance">hi</div>
+       
         
         </div>);
 };

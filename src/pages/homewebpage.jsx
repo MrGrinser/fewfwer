@@ -1,15 +1,8 @@
 import homePic from '../images/homePic.png'
 import '../styles/homewbpage.css'
-import Slideshow from '../assets/Sliedshow';
-import logo from "../images/logo.png"
 
 
-const images = [
-    logo,
-    homePic,
-    'image3.jpg',
-    // Add more image URLs as needed
-  ];
+
 const Homewebpage = () => {
     return (
     <div className="ba">
