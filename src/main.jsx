@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import Header from './assets/Header.jsx'
 import Footer from './assets/Footer.jsx'
 import Mitglied from './pages/mitglied.jsx'
-import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
+import {  Routes, Route, BrowserRouter } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Homewebpage from "./pages/homewebpage.jsx";
 
@@ -16,7 +16,7 @@ import Informationen from './pages/informationen.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header></Header>
-    <BrowserRouter basename="https://infw-293-23a-m293user6.iet-gibb.net">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Homewebpage />} />
